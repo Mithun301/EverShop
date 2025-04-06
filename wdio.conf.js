@@ -22,7 +22,7 @@ exports.config = {
     // The path of the spec files will be resolved relative from the directory of
     // of the config file unless it's absolute.
     //
-    specs: ["test/specs/search.specs.js"],
+    specs: ["test/specs/addToCart.specs.js"],
    // suites: {
       //  addtocart: [[Search], [AddTOCart]],
     //  },

@@ -31,7 +31,7 @@ describe("Demo evershop site product purchase journey", () => {
         await browser.pause(3000);
 
         await addToCartAction.selectColor();
-         await browser.pause(3000);
+        await browser.pause(3000);
 
         await addToCartAction.enterProductQty(Qty);
         await browser.pause(3000);
