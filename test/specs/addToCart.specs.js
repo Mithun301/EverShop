@@ -20,6 +20,10 @@ it("Should able to successfully add product in the cart", async () => {
 
         await addToCartAction.selectProductSize();
         await browser.pause(3000);
+        const linkElement = await $("//a[normalize-space(text())='XL']");
+        const linkText = await linkElement.getText();
+        expect(linkText).toEqual("XL");
+
 
         await addToCartAction.selectColor();
         await browser.pause(3000);

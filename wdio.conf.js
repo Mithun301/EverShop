@@ -23,9 +23,9 @@ exports.config = {
     // of the config file unless it's absolute.
     //
     specs: ["test/specs/addToCart.specs.js"],
-   // suites: {
-      //  addtocart: [[Search], [AddTOCart]],
-    //  },
+    //suites: {
+       // addtocart: [[Search], [AddTOCart]],
+      //},
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
